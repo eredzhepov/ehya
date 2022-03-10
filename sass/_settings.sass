@@ -1,0 +1,90 @@
+*
+  box-sizing: border-box
+@font-face
+  font-family: "HK Grotesk_bold"
+  src: url("../fonts/hkgrotesk-bold-web.woff") format("woff"), url("../fonts/hkgrotesk-bold-web.woff2") format("woff2")
+  font-weight: bold
+  font-style: normal
+@font-face
+  font-family: "HK Grotesk_regular"
+  src: url("../fonts/hkgrotesk-regular-web.woff") format("woff"), url("../fonts/hkgrotesk-regular-web.woff2") format("woff2")
+  font-weight: normal
+  font-style: normal
+@font-face
+  font-family: "HK Grotesk_medium"
+  src: url("../fonts/hkgrotesk-medium-web.woff") format("woff"), url("../fonts/hkgrotesk-medium-web.woff2") format("woff2")
+  font-weight: normal
+  font-style: normal
+@font-face
+  font-family: "FontAwesome5Free"
+  src: url("../fonts/FontAwesome5Free-Solid.woff") format("woff"), url("../fonts/FontAwesome5Free-Solid.woff2") format("woff2")
+  font-weight: bold
+  font-style: normal
+body
+  background-color: #FFFFFF
+  color: #183B56
+  font-family: 'Open Sans', sans-serif
+.container
+  width: 1140px
+  margin: 0 auto
+button
+  cursor: pointer
+  outline: none
+  text-overflow: ellipsis
+  white-space: nowrap
+img
+  max-width: 100%
+input
+  background: #FFFFFF
+  outline: none
+.message
+  background-color: #ffffff
+  border-radius: 4px
+  padding: 18px 23px
+  border: none
+  resize: none
+label.invalid
+  position: absolute
+  left: 20px
+  top: -20px
+  color: #fff
+  font-size: 13px
+  line-height: 15px
+  margin-top: 5px
+  background: #EC1F46
+  padding: 5px
+  border-radius: 5px
+  z-index: 1
+  &:before
+    content: ''
+    border: 20px solid
+    position: absolute
+    bottom: -30px
+    left: 10px
+    border-color: #EC1F46 transparent transparent
+    border-left: 0px
+    transform: rotate(10deg)
+    z-index: -1
+label.invalid__modal
+
+  position: absolute
+  left: 12px
+  top: -1px
+  color: #fff
+  font-size: 13px
+  line-height: 15px
+  margin-top: 5px
+  background: #EC1F46
+  padding: 5px
+  border-radius: 5px
+  z-index: 9999
+  &:before
+    content: ''
+    border: 20px solid
+    position: absolute
+    bottom: -30px
+    left: 10px
+    border-color: #EC1F46 transparent transparent
+    border-left: 0px
+    transform: rotate(10deg)
+    z-index: -1

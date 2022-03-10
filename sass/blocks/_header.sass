@@ -1,0 +1,65 @@
+.header
+  padding-top: 26px
+  padding-bottom: 60px
+  &-navbar
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__logo
+    width: 90px
+  &-menu
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 657px
+
+    &--visible
+      overflow-y: auto
+
+  &-nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0
+    margin: 0
+    &__link
+      text-decoration: none
+      color: inherit
+      margin-right: 41px
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+    &__item
+      list-style: none
+  &__enter
+    border: 2px solid $primary
+    box-sizing: border-box
+    padding: 10px 22px
+    filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1))
+    border-radius: 8px
+    background-color: #fff
+    font-weight: bold
+    font-size: 16px
+    line-height: 22px
+    color: $primary
+  &-button
+    display: none
+    &__line
+
+      &--hide
+        opacity: 0
+        visibility: hidden
+  &__close
+    display: none
+    &--visible
+
+      display: block
+      margin-top: -11px
+.header-nav__close
+  display: none
+.activee
+  visibility: hidden
+.disablede
+  visibility: visible
+hr
+  display: none

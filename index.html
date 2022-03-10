@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon-16x16.png" type="image/x-icon">
+  <title>Интернет магазин Ehya</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <header id="hero" class="header">
+    <div class="container">
+      <div class="header-navbar">
+        <div class="header__logo">
+          <a href="https://enver-eredzhepov.ru/diploma/"> <img src="data:image/gif;base64,R0lGODlhLQAOAIAAAP///wAAACH5BAEAAAEALAAAAAAtAA4AAAIXjI+py+0Po5y02ouz3rz7D4biSJbmWQAAOw==" alt="logo" class="lazyload" data-src="img/logo.png"></a>
+        </div>
+        <div class="header-menu header-menu--hidden">
+          <nav class="header__navigation">
+            <ul class="header-nav">
+              <li class="header-nav__close"><div class="header-nav__close">
+                <img src="img/close.svg" alt="Icon: Close" class="header-nav__close">
+              </div></li>
+              <li class="header-nav__item"><a href="#" class="header-nav__link">Главная</a></li>
+              <li class="header-nav__item"><a href="#collection" class="header-nav__link">Новинки</a></li>
+              <li class="header-nav__item"><a href="#trends" class="header-nav__link">Тренды</a></li>
+              <li class="header-nav__item"><a href="#review" class="header-nav__link">Отзывы</a></li>
+              <li class="header-nav__item"><a href="#contacts" class="header-nav__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <button class="header__enter" data-togle="modal">Войти</button>
+        </div>
+        <button data-toggle="modal1" class="header-button header-button__correct">
+          <span class="header-button__line"></span>
+          <span class="header-button__line"></span>
+          <span class="header-button__line"></span>
+          <img src="img/close.svg" class="header__close" alt="close">
+        </button>
+      </div>
+      <!-- /.header-navbar -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.header -->
+  <section id="main" class="hero hero__margin">
+    <div class="hero-content">
+      <div class="hero-content__ready"># READY TO BE COOL</div>
+      <h1 class="hero-content__title">Каждый может быть крутым и&nbsp;модным</h1>
+      <p class="hero-content__text">Чтобы быть в тренде и стать модным,&nbsp;вам нужно носить отличную одежду и&nbsp;обновлять свой стиль. Всё это вы можете найти&nbsp;здесь. Начните сейчас.</p>
+      <button class="hero-content__button">Подобрать одежду</button>
+      <div class="hero-content__service">
+        <div class=" hero-content__link"> <span class=" hero-content__wrapper"><img src="#" class="lazyload hero-content__image" data-src="img/path.svg" alt="path"></span>Онлайн оплата</div>
+        <div class=" hero-content__link"> <span class=" hero-content__wrapper"><img src="#" class="lazyload hero-content__image" data-src="img/path-2.svg" alt="path2"></span>Гарантия</div>
+        <div class=" hero-content__link"> <span class=" hero-content__wrapper"><img src="#" class="lazyload hero-content__image" data-src="img/path-3.svg" alt="path3"></span>Качество</div>
+      </div>
+    </div>
+    <!-- /.hero-content -->
+  </section>
+  <!-- /.hero -->
+  <section id="collection" class="collection collection__margin">
+    <div class="container">
+      <div class="collection-wrapper">
+        <div class="collection__first">
+          <img src="img/dummy-image-320x490.gif" data-src="img/base1.jpg" alt="base1" class="lazyload collection__first-image">
+        </div>
+        <div class="collection__second">
+          <div class="collection__second-1"><img src="img/dummy-image-320x230.gif" data-src="img/base2.1.jpg" alt="base1" class="lazyload collection__second-image"></div>
+          <div class="collection__second-2"><img src="img/dummy-image-320x230.gif" data-src="img/base2.2.jpg" alt="base1" class="lazyload collection__second-image"></div>
+        </div>
+        <div class="collection__third">
+          <h2 class="collection__title">Новая зимняя коллекция</h2>
+          <p class="collection__third-text">
+            Сейчас зимний сезон. Вы можете увидеть больше из этой коллекции, нажав кнопку ниже. Успейте купить, пока коллекция
+            есть
+            в наличии. Используйте код EHYA20, чтобы получить 20%&nbsp;скидку.
+          </p>
+          <a href="#" class="collection__link">Посмотреть коллекцию  <img src="#" data-src="img/arrow.png" alt="arrow" class="collection__link-image lazyload"></a>
+        </div>
+      </div>
+      <!-- /.collection-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.collection -->
+  <section id="trends" class="trends">
+    <div class="container">
+      <div class="trends-header">
+        <h2 class="trends__title">Тренды</h2>
+        <ul class="trends__list">
+          <li class="trends__item trends__item--active" data-target="#new">Новинки</li>
+          <li class="trends__item" data-target="#best">Лучшее</li>
+          <li class="trends__item" data-target="#soon">Скоро</li>
+        </ul>
+      </div>
+      <div class="trends-container trends-container--active" id="new">
+        <div  class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask1" class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask1.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask1.1" class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask1.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh1.jpg">
+          <a href="#" class="trends-container__link trends-container__link--first">Minimalist Style</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$25.7</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask2" class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask2.jpg">
+            <img src="img/dummy-image-140x170.gif" alt="mask2.1" class="trends-container__image trends-container__image--mobile lazyload"
+              data-src="img/mask2.1.jpg">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh2.jpg">
+          <a href="#" class="trends-container__link">Luxury Gown</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$30.6</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+          </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask3" class="trends-container__image trends-container__image--desktop lazyload"
+            data-src="img/mask3.jpg">
+            <img src="img/dummy-image-140x170.gif" alt="mask3.1" class="trends-container__image trends-container__image--mobile lazyload"
+              data-src="img/mask3.1.jpg">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh3.jpg">
+          <a href="#" class="trends-container__link">Full Coloristy</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$25.7</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+          </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask4" class="trends-container__image trends-container__image--desktop lazyload"
+            data-src="img/mask4.jpg">
+            <img src="img/dummy-image-140x170.gif" alt="mask4.1" class="trends-container__image trends-container__image--mobile lazyload"
+              data-src="img/mask4.1.jpg">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh4.jpg">
+          <a href="#" class="trends-container__link">Pinky Winky</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$109</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+          </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask5" class="trends-container__image trends-container__image--desktop lazyload"
+            data-src="img/mask5.jpg">
+            <img src="#" alt="mask5.1" class="trends-container__image trends-container__image--mobile lazyload"
+              data-src="img/mask5.1.jpg">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh5.jpg">
+          <a href="#" class="trends-container__link">Holiday Vibes</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$51.2</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+          </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt=mask6 class="trends-container__image trends-container__image--desktop lazyload"
+            data-src="img/mask6.jpg">
+            <img src="img/dummy-image-140x170.gif" alt="mask6.1" class="trends-container__image trends-container__image--mobile lazyload"
+              data-src="img/mask6.1.jpg">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh6.jpg">
+          <a href="#" class="trends-container__link">Swaggie Shaggy</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$81.3</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+          </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask7" class="trends-container__image trends-container__image--desktop lazyload"
+            data-src="img/mask7.jpg">
+            <img src="img/dummy-image-140x170.gif" alt="mask7.1" class="trends-container__image trends-container__image--mobile lazyload"
+              data-src="img/mask7.1.jpg">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh7.jpg">
+          <a href="#" class="trends-container__link">Red Formal</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$66.8</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket" data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+          </div>
+
+        <div class="trends-container__card trends-container__more">
+          <a href="#"><img src="img/dummy-image-260x350.gif" alt="blue" class="trends-container__image trends-container__image--desktop lazyload"
+            data-src="img/blue.png">
+          <img src="img/dummy-image-140x170.gif" alt="blue.1" class="trends-container__image trends-container__image--mobile lazyload"
+            data-src="img/blue.1.png">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/more-tablet.jpg">
+          <div class="trends-container__wrapper">
+            <!-- <span class="trends-container__more-plus">
+              
+            </span> -->
+            <!--1111111-->
+            <svg aria-hidden="true"  focusable="false" data-prefix="fas" data-icon="plus" class=" fa-plus fa-w-14 svg_plus"
+              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path fill="#fff"
+                d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+              </path>
+            </svg>
+            <!--1111111-->
+            <span class="trends-container__more-collection">Смотреть больше коллекций</span>
+          </div></a>
+          
+        </div>
+      </div>
+      <div class="trends-container" id="best">
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask1"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask1.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask1.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh1.jpg">
+          <a href="#" class="trends-container__link trends-container__link--first">Minimalist Style</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$25.7</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask2"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask2.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask2.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask2.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh2.jpg">
+          <a href="#" class="trends-container__link">Luxury Gown</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$30.6</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask3"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask3.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask3.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask3.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh3.jpg">
+          <a href="#" class="trends-container__link">Full Coloristy</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$25.7</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask4"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask4.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask4.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask4.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh4.jpg">
+          <a href="#" class="trends-container__link">Pinky Winky</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$109</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask5"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask5.jpg">
+          <img src="#" alt="mask5.1" class="trends-container__image trends-container__image--mobile lazyload"
+            data-src="img/mask5.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh5.jpg">
+          <a href="#" class="trends-container__link">Holiday Vibes</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$51.2</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt=mask6
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask6.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask6.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask6.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh6.jpg">
+          <a href="#" class="trends-container__link">Swaggie Shaggy</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$81.3</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask7"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask7.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask7.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask7.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh7.jpg">
+          <a href="#" class="trends-container__link">Red Formal</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$66.8</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+      
+        <div class="trends-container__card trends-container__more">
+          <a href="#"><img src="img/dummy-image-260x350.gif" alt="blue"
+              class="trends-container__image trends-container__image--desktop lazyload" data-src="img/blue.png">
+            <img src="img/dummy-image-140x170.gif" alt="blue.1"
+              class="trends-container__image trends-container__image--mobile lazyload" data-src="img/blue.1.png">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/more-tablet.jpg">
+            <div class="trends-container__wrapper">
+              <!-- <span class="trends-container__more-plus">
+                    
+                  </span> -->
+              <!--1111111-->
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class=" fa-plus fa-w-14 svg_plus"
+                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="#fff"
+                  d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                </path>
+              </svg>
+              <!--1111111-->
+              <span class="trends-container__more-collection">Смотреть больше коллекций</span>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+      <div class="trends-container" id="soon">
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask1"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask1.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask1.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh1.jpg">
+          <a href="#" class="trends-container__link trends-container__link--first">Minimalist Style</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$25.7</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask2"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask2.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask2.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask2.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh2.jpg">
+          <a href="#" class="trends-container__link">Luxury Gown</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$30.6</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask3"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask3.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask3.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask3.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh3.jpg">
+          <a href="#" class="trends-container__link">Full Coloristy</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$25.7</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask4"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask4.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask4.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask4.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh4.jpg">
+          <a href="#" class="trends-container__link">Pinky Winky</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$109</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask5"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask5.jpg">
+          <img src="#" alt="mask5.1" class="trends-container__image trends-container__image--mobile lazyload"
+            data-src="img/mask5.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh5.jpg">
+          <a href="#" class="trends-container__link">Holiday Vibes</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$51.2</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt=mask6
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask6.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask6.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask6.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh6.jpg">
+          <a href="#" class="trends-container__link">Swaggie Shaggy</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--second">$81.3</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+        <div class="trends-container__card"><img src="img/dummy-image-260x350.gif" alt="mask7"
+            class="trends-container__image trends-container__image--desktop lazyload" data-src="img/mask7.jpg">
+          <img src="img/dummy-image-140x170.gif" alt="mask7.1"
+            class="trends-container__image trends-container__image--mobile lazyload" data-src="img/mask7.1.jpg">
+          <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+            class="trends-container__image trends-container__image--tablet lazyload" data-src="img/mask-plansh7.jpg">
+          <a href="#" class="trends-container__link">Red Formal</a>
+          <div class="trends-container__shop-card">
+            <span class="trends-container__price trends-container__price--first">$66.8</span>
+            <a href="#"><img src="img/dummy-image-23x21.gif" class="lazyload trends-container__basket"
+                data-src="img/shopping-cart.png" alt="basket"></a>
+          </div>
+        </div>
+      
+        <div class="trends-container__card trends-container__more">
+          <a href="#"><img src="img/dummy-image-260x350.gif" alt="blue"
+              class="trends-container__image trends-container__image--desktop lazyload" data-src="img/blue.png">
+            <img src="img/dummy-image-140x170.gif" alt="blue.1"
+              class="trends-container__image trends-container__image--mobile lazyload" data-src="img/blue.1.png">
+            <img src="img/dummy-image-280x350.gif" alt="mask1.1"
+              class="trends-container__image trends-container__image--tablet lazyload" data-src="img/more-tablet.jpg">
+            <div class="trends-container__wrapper">
+              <!-- <span class="trends-container__more-plus">
+                    
+                  </span> -->
+              <!--1111111-->
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class=" fa-plus fa-w-14 svg_plus"
+                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="#fff"
+                  d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+                </path>
+              </svg>
+              <!--1111111-->
+              <span class="trends-container__more-collection">Смотреть больше коллекций</span>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.trends -->
+  <div id="review" class="reviews reviews__margin">
+    <div class="container">
+      <div class="reviews-conteiner">
+        <!-- Slider main container -->
+        <div class="swiper-container reviews__slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="img/quote-left.png" class="swiper-slide__image"  alt="quote-left">
+              <p class="swiper-slide__text">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские. Я покупала несколько раз из
+              коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а качество ткани просто превосходно.
+              Я с нетерпением жду новых коллекций от сезона к сезону</p>
+              <strong class="swiper-slide__username">Алисия Пума - клиент Fashun</strong>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/quote-left.png" class="swiper-slide__image" alt="quote-left">
+              <p class="swiper-slide__text">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские.
+                Я покупала несколько раз из
+                коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а качество ткани просто
+                превосходно.
+                Я с нетерпением жду новых коллекций от сезона к сезону</p>
+              <strong class="swiper-slide__username">Алисия Пума - клиент Fashun</strong>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/quote-left.png" class="swiper-slide__image" alt="quote-left">
+              <p class="swiper-slide__text">Мне очень нравятся дизайн и стили, которые создает Ehya. Они такие разные и новаторские.
+                Я покупала несколько раз из
+                коллекций, и что мне нравится, это то, что они действительно неподвластны времени, а качество ткани просто
+                превосходно.
+                Я с нетерпением жду новых коллекций от сезона к сезону</p>
+              <strong class="swiper-slide__username">Алисия Пума - клиент Fashun</strong>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.reviews -->
+<hr>
+  <section class="history history__margin">
+    <div class="container">
+      <div class="history-wrapper">
+          <div class="history-description">
+            <span class="history-description__span">Истории</span>
+            <h2 class="history-description__title">Это&nbsp;История Fashun</h2>
+            <p class="history-description__text">Ознакомьтесь с нашим рассказом
+              о&nbsp;моде. Написано нашим дизайнером и&nbsp;специалистом.</p>
+            <div class="history__navigation">
+              <div class="history__navigation-prev">
+                  <svg class="history__prev" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.31689 12.9375C8.62939 12.625 8.59814 12.1562 8.31689 11.8438L4.53564 8.25H13.5356C13.9419 8.25 14.2856 7.9375 14.2856 7.5V6.5C14.2856 6.09375 13.9419 5.75 13.5356 5.75H4.53564L8.31689 2.1875C8.59814 1.875 8.62939 1.40625 8.31689 1.09375L7.62939 0.40625C7.34814 0.125 6.84814 0.125 6.56689 0.40625L0.504395 6.5C0.191895 6.78125 0.191895 7.25 0.504395 7.53125L6.56689 13.625C6.84814 13.9062 7.31689 13.9062 7.62939 13.625L8.31689 12.9375Z" />
+                  </svg>
+            
+              </div>
+              <div class="history__navigation-next">
+                <svg class="history__next" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.9375 1.09375C5.625 1.40625 5.65625 1.875 5.9375 2.1875L9.71875 5.75H0.75C0.3125 5.75 0 6.09375 0 6.5V7.5C0 7.9375 0.3125 8.25 0.75 8.25H9.71875L5.9375 11.8438C5.65625 12.1562 5.65625 12.625 5.9375 12.9375L6.625 13.625C6.9375 13.9062 7.40625 13.9062 7.6875 13.625L13.7812 7.53125C14.0625 7.25 14.0625 6.78125 13.7812 6.46875L7.6875 0.40625C7.40625 0.125 6.9375 0.125 6.625 0.40625L5.9375 1.09375Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+      
+      <!-- Slider main container -->
+      <div class="swiper-container history-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="history-slider__item">
+                    <div class="history-cards">
+                      <div class="history-cards__card">
+                        <img src="img/dummy-image-312x317.gif" class="lazyload history-cards__image" data-src="img/shape.jpg" alt="card1">
+                        <div class="history-cards__writting">
+                          <span class="history-cards__text">Mix & Match Style 01: повседневный и формальный стиль</span>
+                          <a href="#" class="history-cards__link">Читать далее</a>
+                        </div>
+                      </div>
+                      <div class="history-cards__card">
+                        <img src="img/dummy-image-312x317.gif" class="lazyload history-cards__image" data-src="img/shape1.jpg" alt="card1">
+                        <div class="history-cards__writting">
+                          <span class="history-cards__text">Лайфхак: Купите одежду Thrifft на воскресном рынке
+                          </span>
+                          <a href="#" class="history-cards__link">Читать далее</a>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="history-slider__item">
+              <div class="history-cards">
+                <div class="history-cards__card">
+                  <img src="img/dummy-image-312x317.gif" class="lazyload history-cards__image" data-src="img/shape.jpg" alt="card1">
+                  <div class="history-cards__writting">
+                    <span class="history-cards__text">Mix & Match Style 01: повседневный и формальный стиль</span>
+                    <a href="#" class="history-cards__link">Читать далее</a>
+                  </div>
+                </div>
+                <div class="history-cards__card">
+                  <img src="img/dummy-image-312x317.gif" class="lazyload history-cards__image" data-src="img/shape1.jpg" alt="card1">
+                  <div class="history-cards__writting">
+                    <span class="history-cards__text">Лайфхак: Купите одежду Thrifft на воскресном рынке
+                    </span>
+                    <a href="#" class="history-cards__link">Читать далее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="history-slider__item">
+              <div class="history-cards">
+                <div class="history-cards__card">
+                  <img src="img/dummy-image-312x317.gif" class="lazyload history-cards__image" data-src="img/shape.jpg" alt="card1">
+                  <div class="history-cards__writting">
+                    <span class="history-cards__text">Mix & Match Style 01: повседневный и формальный стиль</span>
+                    <a href="#" class="history-cards__link">Читать далее</a>
+                  </div>
+                </div>
+                <div class="history-cards__card">
+                  <img src="img/dummy-image-312x317.gif" class="lazyload history-cards__image" data-src="img/shape1.jpg" alt="card1">
+                  <div class="history-cards__writting">
+                    <span class="history-cards__text">Лайфхак: Купите одежду Thrifft на воскресном рынке
+                    </span>
+                    <a href="#" class="history-cards__link">Читать далее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+                 
+
+      </div>
+      
+      </div>
+      <!-- /.history-wrapper -->
+    </div>
+    <!-- /.container -->
+
+  </section>
+  <!-- /.history -->  
+  
+  <section class="subscribe subscribe__margin">
+    <div class="subscribe-wrapper">
+      <div class="subscribe__description">
+        <h2 class="subscribe__title">Подпишитесь</h2>
+        <p class="subscribe__text">Напишите свой адрес электронной почты. Мы&nbsp;будем присылать вам новости из мира моды.</p>
+      </div>
+      <form action="send.php" method="POST" class="form subscribe-form subscribe-form__margin">
+        <input type="email" class="input subscribe__input" placeholder="Ваш Emaill" name="email" required>
+        <button class="subscribe__button" type="submit">Подписаться</button>
+        <img src="img/dummy-image-16x18.gif" alt="mail" data-src="img/mail.svg" class="lazyload subscribe__mail">  
+      </form>
+    </div>
+    <!-- /.subscribe-wrapper -->
+  </section>
+  <!-- /.description -->
+  <section id="contacts" class="footer">
+     <div class="container">
+       <div class="footer-wrapper">
+          <div class="footer-description footer-description__margin">
+            <a href="https://enver-eredzhepov.ru/diploma/"><img
+              src="data:image/gif;base64,R0lGODlhLQAOAIAAAP///wAAACH5BAEAAAEALAAAAAAtAA4AAAIXjI+py+0Po5y02ouz3rz7D4biSJbmWQAAOw=="
+              alt="logo" class="lazyload footer__logo" data-src="img/logo.png"></a>
+            <p class="footer__text">Интернет-магазин брендовой одежды&nbsp;с оплатой онлайн</p>
+            <div class="footer-social">
+              <a href="https://www.google.com/"  target="_blank" rel="noopener noreferrer" class="footer__link">
+                <svg width="42" height="41" class="footer__img" viewBox="0 0 42 41" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M28.9583 20.925C28.9583 20.425 28.8958 20.05 28.8333 19.6438H21.4583V22.3H25.8333C25.677 23.4563 24.5208 25.6438 21.4583 25.6438C18.802 25.6438 16.6458 23.4563 16.6458 20.7375C16.6458 16.3938 21.7708 14.3938 24.5208 17.05L26.6458 15.0188C25.302 13.7688 23.5208 12.9875 21.4583 12.9875C17.1458 12.9875 13.7083 16.4563 13.7083 20.7375C13.7083 25.05 17.1458 28.4875 21.4583 28.4875C25.927 28.4875 28.9583 25.3625 28.9583 20.925Z" />
+                </svg></a>
+              <a href="https://twitter.com/"  target="_blank" rel="noopener noreferrer" class="footer__link">
+                <svg width="42" height="41" class="footer__img"
+                  viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M27.677 17.4875C28.302 17.0188 28.8645 16.4563 29.302 15.8C28.7395 16.05 28.0833 16.2375 27.427 16.3C28.1145 15.8938 28.6145 15.2688 28.8645 14.4875C28.2395 14.8625 27.5208 15.1438 26.802 15.3C26.177 14.6438 25.3333 14.2688 24.3958 14.2688C22.5833 14.2688 21.1145 15.7375 21.1145 17.55C21.1145 17.8 21.1458 18.05 21.2083 18.3C18.4895 18.1438 16.052 16.8313 14.427 14.8625C14.1458 15.3313 13.9895 15.8938 13.9895 16.5188C13.9895 17.6438 14.552 18.6438 15.4583 19.2375C14.927 19.2063 14.3958 19.0813 13.9583 18.8313V18.8625C13.9583 20.4563 15.0833 21.7688 16.5833 22.0813C16.3333 22.1438 16.0208 22.2063 15.7395 22.2063C15.5208 22.2063 15.3333 22.175 15.1145 22.1438C15.5208 23.4563 16.7395 24.3938 18.177 24.425C17.052 25.3 15.6458 25.8313 14.1145 25.8313C13.8333 25.8313 13.5833 25.8 13.3333 25.7688C14.7708 26.7063 16.4895 27.2375 18.3645 27.2375C24.3958 27.2375 27.677 22.2688 27.677 17.925C27.677 17.7688 27.677 17.6438 27.677 17.4875Z" />
+                </svg></a>
+              <a href="https://www.instagram.com/"  target="_blank" rel="noopener noreferrer" class="footer__link">
+                <svg width="40" height="41" class="footer__img" viewBox="0 0 40 41" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3333 17.1438C18.3333 17.1438 16.7395 18.7688 16.7395 20.7375C16.7395 22.7375 18.3333 24.3313 20.3333 24.3313C22.302 24.3313 23.927 22.7375 23.927 20.7375C23.927 18.7688 22.302 17.1438 20.3333 17.1438ZM20.3333 23.0813C19.052 23.0813 17.9895 22.05 17.9895 20.7375C17.9895 19.4563 19.0208 18.425 20.3333 18.425C21.6145 18.425 22.6458 19.4563 22.6458 20.7375C22.6458 22.05 21.6145 23.0813 20.3333 23.0813ZM24.8958 17.0188C24.8958 16.55 24.5208 16.175 24.052 16.175C23.5833 16.175 23.2083 16.55 23.2083 17.0188C23.2083 17.4875 23.5833 17.8625 24.052 17.8625C24.5208 17.8625 24.8958 17.4875 24.8958 17.0188ZM27.2708 17.8625C27.2083 16.7375 26.9583 15.7375 26.1458 14.925C25.3333 14.1125 24.3333 13.8625 23.2083 13.8C22.052 13.7375 18.5833 13.7375 17.427 13.8C16.302 13.8625 15.3333 14.1125 14.4895 14.925C13.677 15.7375 13.427 16.7375 13.3645 17.8625C13.302 19.0188 13.302 22.4875 13.3645 23.6438C13.427 24.7688 13.677 25.7375 14.4895 26.5813C15.3333 27.3938 16.302 27.6438 17.427 27.7063C18.5833 27.7688 22.052 27.7688 23.2083 27.7063C24.3333 27.6438 25.3333 27.3938 26.1458 26.5813C26.9583 25.7375 27.2083 24.7688 27.2708 23.6438C27.3333 22.4875 27.3333 19.0188 27.2708 17.8625ZM25.7708 24.8625C25.552 25.4875 25.052 25.9563 24.4583 26.2063C23.5208 26.5813 21.3333 26.4875 20.3333 26.4875C19.302 26.4875 17.1145 26.5813 16.2083 26.2063C15.5833 25.9563 15.1145 25.4875 14.8645 24.8625C14.4895 23.9563 14.5833 21.7688 14.5833 20.7375C14.5833 19.7375 14.4895 17.55 14.8645 16.6125C15.1145 16.0188 15.5833 15.55 16.2083 15.3C17.1145 14.925 19.302 15.0188 20.3333 15.0188C21.3333 15.0188 23.5208 14.925 24.4583 15.3C25.052 15.5188 25.5208 16.0188 25.7708 16.6125C26.1458 17.55 26.052 19.7375 26.052 20.7375C26.052 21.7688 26.1458 23.9563 25.7708 24.8625Z" />
+                </svg></a>
+              <a href="https://linkedin.com/"  target="_blank" rel="noopener noreferrer" class="footer__link">
+                <svg width="40" height="41" class="footer__img" viewBox="0 0 40 41" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M26.3333 13.7375H14.302C13.7708 13.7375 13.3333 14.2063 13.3333 14.7688V26.7375C13.3333 27.3 13.7708 27.7375 14.302 27.7375H26.3333C26.8645 27.7375 27.3333 27.3 27.3333 26.7375V14.7688C27.3333 14.2063 26.8645 13.7375 26.3333 13.7375ZM17.552 25.7375H15.4895V19.0813H17.552V25.7375ZM16.5208 18.1438C15.8333 18.1438 15.302 17.6125 15.302 16.9563C15.302 16.3 15.8333 15.7375 16.5208 15.7375C17.177 15.7375 17.7083 16.3 17.7083 16.9563C17.7083 17.6125 17.177 18.1438 16.5208 18.1438ZM25.3333 25.7375H23.2395V22.4875C23.2395 21.7375 23.2395 20.7375 22.177 20.7375C21.0833 20.7375 20.927 21.5813 20.927 22.4563V25.7375H18.8645V19.0813H20.8333V19.9875H20.8645C21.1458 19.4563 21.8333 18.8938 22.8333 18.8938C24.927 18.8938 25.3333 20.3 25.3333 22.0813V25.7375Z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="footer-links">
+                      <div class="footer-navigation">
+                        <h3 class="footer__title">Навигация</h3>
+                        <ul class="footer__list">
+                          <li class="footer__item"><a class="footer__link" href="#">Новая коллекция</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Трендовая одежда</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Истории Fashun</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Отзывы клиентов</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Вся одежда</a></li>
+                        </ul>
+                      </div>
+                      <div class="footer-service">
+                        <h3 class="footer__title">Сервисы</h3>
+                        <ul class="footer__list">
+                          <li class="footer__item"><a class="footer__link" href="#">Рассрочка на 6 мес</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Кредит на 12 мес</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Доставка по РФ</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Возврат покупок</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Акции и кэшбек</a></li>
+                        </ul>
+                      </div>
+                      <div class="footer-company">
+                        <h3 class="footer__title">Компания</h3>
+                        <ul class="footer__list">
+                          <li class="footer__item"><a class="footer__link" href="#">Об Ehya</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Правила сайта</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Обработка данных</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Вакансии</a></li>
+                        </ul>
+                      </div>
+                      <div class="footer-contacts">
+                        <h3 class="footer__title">Контакты</h3>
+                        <ul class="footer__list">
+                          <li class="footer__item"><a class="footer__link" href="#">Группа Фейсбук</a></li>
+                          <li class="footer__item"><a class="footer__link" href="#">Канал Youtube</a></li>
+                        </ul>
+                      </div>
+          </div>
+       </div>
+       <!-- /.footer-wrapper -->
+     </div>
+
+  </section>
+  
+      <div class="modal">
+        <div class="modal__overlay"></div>
+        <!-- /.modal__overlay -->
+        <div class="modal__dialog">
+          <a href="#" class="modal__close">
+            <img src="img/close.svg" alt="Icon: Close" class="modal__close">
+          </a>
+      
+          <h3 class="modal__title">Авторизация</h3>
+          <form action="send.php" method="POST" class="modal__form form">
+            <!-- <input type="email" class="input subscribe__input" placeholder="Ваш Emaill" name="email" required> -->
+            <div class="inut-wrapper"><input type="text" class="input modal__input" placeholder="Логин*" name="login" minlength="2" required></div>
+            <div class="inut-wrapper"><input type="password" class="input modal__input"  placeholder="Пароль*" name="pass" minlength="4" required></div>
+            <button class="button modal__button" type="submit">Войти</button>
+            <span class="modal__info">* Обязательное поле</span>
+          </form>
+    </div>
+  </div>
+
+  <a href="#hero" class="to-top"><img src="img/next.svg" alt="top" class="to-top__image"></a>
+  <a href="#main" class="to-top-mobile"><img src="img/next.svg" alt="to-top" class="to-top-mobile__image"></a>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/lazyload.min.js"></script>
+  <!-- <script src="js/aos.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+</html>

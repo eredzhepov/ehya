@@ -1,0 +1,930 @@
+@media(hover: hover) and (pointer: fine)
+  button
+    &:hover
+      transition: 0.4s
+      background-color: #3585DE
+  a, .trends__item
+    &:hover
+      color: #3585DE
+  .header__enter, .modal__button
+    &:hover
+      transition: 0.4s
+      color: #629bf0
+      background-color: #fff
+  .footer__img
+    &:hover
+      transition: 0.4s
+      background-color: darken(#EFF1F3, 10%)
+  .trends-container__basket
+    &:hover
+      width: 24px
+      height: 22px
+
+@media screen and  (max-width: 1200px)
+  .container
+    max-width: 950px
+  .hero
+    max-width: 96%
+  .collection
+    &-wrapper
+      flex-wrap: wrap
+      justify-content: space-evenly
+      max-height: 100%
+    &__margin
+      padding-top: 80px
+      padding-bottom: 34px
+    &__first, &__second
+      width: 290px
+      height: 467px
+    &__third
+      padding-left: 10px
+      padding-top: 0
+      max-width: 340px
+      &-text
+        margin-top: 0
+        margin-bottom: 24px
+    &__title
+      margin-bottom: 24px
+  .trends
+    &-container
+      &--active
+        justify-content: space-around
+  .history
+    &-wrapper
+      flex-direction: column
+      align-items: center
+    &-description
+      margin-bottom: 36px
+      &__text
+        text-align: center
+      &__title
+        text-align: center
+      &__span
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+    &-slider
+      max-width: 100%
+      min-height: 376px
+      justify-content: space-around
+      &__item
+
+    &__navigation
+      align-items: center
+      justify-content: center
+    &-cards
+      min-width: 750px
+    //   justify-content: space-evenly
+  .subscribe
+    &-wrapper
+      max-width: 887px
+    &-form
+      &__margin
+        margin-right: 0
+@media screen and  (max-width: 992px)
+  .container
+    max-width: 700px
+  .hero
+    max-width: 96%
+  .header
+    &-nav
+      &__link
+        margin-right: 27px
+    &__logo
+      margin-right: 37px
+    &__enter
+      padding: 8px 17px
+  .swiper
+    &-slide
+      &__image
+        margin-bottom: 39px
+      &__username
+        // margin-bottom: 45px
+      &__text
+        max-height: 253px
+    &-container
+      max-width: 630px
+      min-height: 465px
+  .collection
+    &__margin
+      padding-bottom: 107px
+    &__first, &__second
+      width: auto
+      height: 490px
+    &__third
+      padding-top: 40px
+      flex-basis: 100%
+      max-width: 100%
+  .reviews
+    &-container
+      max-width: 630px
+      min-height: 415px
+    &__margin
+      padding-top: 37px
+  .history
+    &-slider
+      min-height: 376px !important
+      max-width: 700px !important
+      &__item
+        // width: 100%
+    &-cards
+      justify-content: center
+      align-items: center
+      max-width: 600px
+      &__card
+        &:nth-last-child(1)
+
+          margin-left: 28px
+  .subscribe
+    &__margin
+      margin-top: 81px
+    &-wrapper
+      flex-direction: column
+      align-items: center
+      justify-content: center
+    &__title
+      text-align: center
+    &__text
+      text-align: center
+      margin-bottom: 30px
+  .footer
+    height: 720px
+    &-links
+      width: 358px
+      justify-content: start
+      flex-wrap: wrap
+    &-navigation, &-company
+      margin-right: 49px
+    &-wrapper
+      padding-top: 65px
+  .header__enter:hover, .modal__button:hover
+    border-color: #1565D8
+  .header-button:hover
+    background-color: #fff
+  .subscribe__button:hover, .hero-content__button:hover
+    background-color: #183B56
+  .footer__img:hover
+    background-color: #EFF1F3
+  .header-nav__link:hover, .footer__link:hover
+    color: inherit
+  .trends__item:hover
+    color: #5A7184
+  .trends-container__basket:hover
+    width: 23px
+    height: 21px
+
+@media screen and  (max-width: 768px)
+  .container
+    width: 88%
+  .header-button span
+    width: 22px
+    height: 2px
+    background-color: #183B56
+
+    z-index: 100
+    margin-top: 5px
+
+  .header
+    padding-top: 18px
+    padding-bottom: 45px
+    z-index: 300
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    background-color: #fff
+
+    &-menu
+      position: fixed
+      width: 100%
+      left: 0
+      top: 13%
+      right: 10%
+      bottom: 0
+
+      // transform: translate(50%, -50%)
+      &--hidden
+        display: none
+      &--visible
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        background-color: #fff
+        align-items: start
+        width: 97%
+        margin: -54px 0 0 auto
+        width: 304px
+        height: 325px
+        border-radius: 8px
+
+    &__logo
+      margin-left: 11px
+    &-button
+      background-color: #fff
+      outline: none
+      display: flex
+      width: 26px
+      height: 21px
+      padding: 0
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: 0
+
+      &__correct
+        margin-top: -5px
+        margin-right: 14px
+    &-nav
+      flex-direction: column
+      margin-left: 24px
+      width: 275px
+      align-items: start
+
+      &__close
+        align-self: flex-end
+        display: flex
+      &__item
+        margin-top: 20px
+      &__link
+        margin-right: 0
+    &__enter
+      max-width: 304px
+      margin-top: 20px
+      align-self: center
+      width: 80%
+      margin-bottom: 36px
+      margin-top: 20px
+  .hero
+    max-width: 728px
+    max-height: 624px
+    background-position-x: 66%
+    background-position-y: 23%
+    &__margin
+      margin-top: 94px
+    &-content
+      padding: 36px 0 46px 27px
+      &__title
+        font-size: 48px
+        line-height: 60px
+        margin-bottom: 4px
+      &__text
+        max-width: 400px
+        font-size: 18px
+        line-height: 32px
+        margin-bottom: 38px
+      &__service
+        margin-top: 40px
+      &__link
+        margin-right: 21px
+      &__button
+        font-size: 18px
+        line-height: 25px
+  .collection
+    &__margin
+      padding-bottom: 36px
+    &-wrapper
+      justify-content: space-between
+    &__third
+      padding-right: 10px
+      padding-left: 0
+      padding-top: 33px
+    &__title
+      margin-bottom: 29px
+  .trends
+    &-header
+      flex-direction: column
+      margin-bottom: 27px
+    &__list
+      margin-top: 0
+      margin-bottom: 28px
+      display: flex
+      justify-content: space-between
+      width: 42%
+    &__item
+      margin-left: 0
+    &__title
+      flex-basis: 100%
+      margin-bottom: 33px
+
+    &-container
+      &--active
+        margin-right: 12px
+      &__card
+        margin-bottom: 46px
+      &__basket
+        margin-right: 12px
+        margin-top: 4px
+      &__link
+        margin-bottom: 0
+        margin-left: 10px
+        margin-top: 19px
+      &__price
+        margin-left: 0
+        margin-top: 6px
+        &--second
+          margin-left: -2px
+      &__image
+        &--desktop
+          display: none
+        &--tablet
+          display: flex
+
+      &__more
+        &-collection
+          width: 80%
+      &__shop-card
+        margin-left: 10px
+        margin-top: 0
+  .reviews
+    &__margin
+      padding-top: 44px
+    &-container
+      max-height: 415px
+  .history
+    &__margin
+      margin-top: 22px
+    &-wrapper
+      padding-top: 76px
+    &__navigation
+      margin-top: 34px
+      margin-left: -4px
+      &-next
+        margin-left: 22px
+    &-description
+      min-width: 515px
+      margin-bottom: 35px
+      &__title
+        margin-top: 51px
+        margin-bottom: 21px
+      &__span
+        left: 51%
+      &__text
+        max-width: 576px
+    &-slider
+      margin-right: 16px
+      min-height: 321px !important
+      &--next
+        margin-left: 21px
+    &-cards
+      padding: 0
+      &__card
+      &__image
+        width: 322px
+      &__writting
+        max-width: 322px
+        padding: 18px 56px 20px 23px
+
+      &__image
+        height: 317px
+  .subscribe
+    height: 402px
+    &-wrapper
+      justify-content: start
+    &__title
+      margin-top: 66px
+      margin-bottom: 20px
+    &__text
+      margin-bottom: 20px
+      margin-bottom: 56px
+  .footer
+    height: auto
+    padding-bottom: 110px
+    &-description
+      &__margin
+        margin-right: 21px
+        margin-left: 9px
+  .to-top
+    display: none
+    &-mobile
+      display: block
+@media screen and  (max-width: 767px)
+  .hero
+    width: 100%
+    max-width: 100%
+    border-radius: 0
+  .collection
+    &-wrapper
+      justify-content: center
+    &__first
+      display: flex
+      flex-basis: 100%
+      justify-content: center
+      margin-bottom: 14px
+      &-image
+        width: 436px
+        border-radius: 4px
+    &__second
+      flex-direction: row
+      height: auto
+      &-1, &-2
+        flex-basis: 48%
+        border-radius: 8px
+      &-image
+        width: 219px
+    &__third
+      padding-top: 3%
+      padding-right: 0
+      &--text
+        font-size: 16px
+        line-height: 28px
+    &__title
+      font-size: 28px
+      line-height: 36px
+  .trends
+    &-container
+      &__card
+        margin-left: 5px
+        width: 232px
+      &__more
+        &-collection
+          width: auto
+
+  .swiper
+    &-slide
+      &__text
+        max-height: 298px
+    &-container
+      min-height: 495px
+  .reviews
+    &-container
+      max-width: 630px
+      min-height: 495px
+  .history
+    &-description
+      max-width: 400px
+    &-cards
+      min-width: 484px
+      &__card
+        &:nth-last-of-type(1)
+          margin-left: 28px
+
+      &__image
+        width: 270px
+      &__writting
+        max-width: 260px
+        bottom: 9%
+        padding: 20px 33px 20px 16px
+
+      &__text
+        font-size: 20px
+        line-height: 24px
+    &__navigation
+      margin-top: 29px
+    &-slider
+      margin-right: 0
+      max-width: 491px !important
+  .footer
+    &-links
+      width: 223px
+    &-wrapper
+      flex-direction: column
+    &-description
+      order: 2
+      align-self: center
+      margin: 0
+      display: flex
+      align-items: center
+      justify-content: center
+      flex-direction: column
+    &__text
+      text-align: center
+  .modal
+    &__info
+      font-size: 12px
+      line-height: 14px
+    &__dialog
+      max-width: 321px
+      padding: 32px 45px
+    &__form
+      width: 211px
+      flex-wrap: wrap
+    &__input
+      height: 40px
+    &__button
+      padding: 11px
+  hr
+    display: none
+@media screen and  (max-width: 576px)
+  hr
+    display: block
+  .container
+    width: 90%
+
+  .header
+    padding-top: 11px
+
+  .hero
+    width: 100%
+    &__margin
+      margin-top: 86px
+    &-content
+      justify-content: flex-end
+      height: 100%
+      align-items: center
+      padding-left: 15px
+      padding-right: 15px
+      &__ready
+        width: 196px
+        padding: 3px 21px
+      &__title
+        font-size: 32px
+        line-height: 40px
+        text-align: center
+      &__text
+        font-size: 16px
+        line-height: 28px
+        text-align: center
+      &__service
+        flex-wrap: wrap
+        justify-content: center
+        margin-top: 30px
+        align-content: space-between
+        min-height: 91px
+      &__link
+        font-size: 16px
+        line-height: 20px
+        margin-right: 10px
+
+  .collection
+    &__margin
+      padding-top: 64px
+    &__first
+      min-width: 290px
+      margin-bottom: 14px
+    &__second
+      &-1, &-2
+        height: 40%
+        width: 40%
+    &__title
+      text-align: center
+    &__third
+      &-text
+        text-align: center
+  .trends
+    &__list
+      width: 76%
+      margin-bottom: 5px
+    &__item
+      font-size: 16px
+      line-height: 20px
+    &__title
+      font-size: 28px
+      line-height: 36px
+    &-container
+      &--active
+        max-width: 375px
+        margin: 0 auto
+      &__link
+        font-size: 16px
+        line-height: 20px
+        margin-left: 0
+        margin-top: 14px
+        position: absolute
+        bottom: 29px
+      &__price
+        font-size: 14px
+        line-height: 24px
+        margin-top: 0
+        margin-right: 9px
+        &--second
+          margin-left: 0
+      &__basket
+        margin: 0
+        width: 13px
+      &__card
+        height: 234px
+        max-height: 234px
+        margin-bottom: 26px
+        margin-left: 0
+        width: 140px
+        position: relative
+      &__card:nth-child(2n)
+        margin-right: -7px
+      &__shop-card
+        position: absolute
+        bottom: 0
+        justify-content: start
+        align-items: center
+        margin-left: 0
+      &__more
+        &-plus
+          font-size: 28px
+          line-height: 32px
+          text-align: center
+        &-collection
+          font-size: 17px
+          line-height: 20px
+          text-align: center
+          letter-spacing: 0.2px
+          color: #FAFAFB
+      &__image
+        &--desktop
+          display: none
+        &--tablet
+          display: none
+        &--mobile
+          display: flex
+          object-fit: cover
+      &__wrapper
+        justify-content: space-around
+        transform: translateY(-69%)
+  .swiper
+
+    &-slide
+      &__text
+        font-size: 18px
+        line-height: 36px
+        text-align: center
+        letter-spacing: 0.12px
+      &__username
+        margin-bottom: 0
+      &__image
+        width: 70px
+        height: 70px
+  .swiper
+    &-container
+      min-height: 527px
+  .reviews
+    &-container
+      min-height: 390px
+  .history
+    &__margin
+      margin-top: -9px
+    &-wrapper
+      border: none
+    &__image
+      width: 270px
+    &-slider
+      max-width: 399px !important
+    &-description
+      min-width: 100%
+      &__text
+        max-width: 400px
+        margin: 0 auto
+        font-size: 16px
+        line-height: 28px
+      &__title
+        font-size: 28px
+        line-height: 36px
+    &-cards
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      max-width: 320px
+
+      &__card
+        &:nth-last-of-type(1)
+          margin-left: 0
+          margin-bottom: 10px
+      &__writting
+        bottom: -9px
+  .subscribe
+    height: 413px
+    &__margin
+      margin-top: 42px
+    &__title
+      font-size: 28px
+      line-height: 36px
+      margin-top: 63px
+      margin-bottom: 24px
+    &__text
+      font-size: 16px
+      line-height: 28px
+      padding: 0 10px
+      margin-bottom: 37px
+    &__button
+
+      top: 80px
+      right: 0
+      left: 0
+      height: 48px
+      max-width: 100%
+      width: 100%
+    &-form
+      max-width: 280px
+    &__input
+      height: 48px
+  label.invalid
+    top: -36px
+@media screen and  (max-width: 400px)
+  .swiper
+    &-container
+      min-height: 606px
+  .history-slider
+    max-width: 320px !important
+  .header-menu--visible
+    margin: -54px -25px -54px auto
+@media screen and  (max-width: 320px)
+  .container
+    width: 92%
+  .header
+    padding-top: 15px
+    padding-bottom: 38px
+    &-nav
+      width: 253px
+    &-button
+      &__correct
+        margin-right: 11px
+
+    &__logo
+      margin-left: 10px
+  .hero
+    min-height: 899px
+    background-origin: content-box
+    background-image: url(../img/hero-mobile.jpg)
+    border-radius: 0
+    &-content
+      justify-content: flex-end
+      height: 100%
+      padding-bottom: 36px
+      &__ready
+        margin-bottom: 18px
+        padding: 3px 23px
+      &__title
+        margin: 0
+        margin-bottom: 1px
+        padding-left: 4px
+        padding-right: 4px
+      &__text
+        margin: 0
+        margin-top: 21px
+        text-align: center
+        max-width: 280px
+
+      &__button
+        max-width: 260px
+        font-weight: bold
+        font-size: 16px
+        line-height: 22px
+        padding: 14px 40px
+        margin-top: 22px
+      &__service
+        min-height: 63px
+        justify-content: space-evenly
+        margin-top: 22px
+      &__image
+        width: 11px
+
+      &__link
+        margin-right: 3px
+      &__wrapper
+        border: 0.75px solid #1565D8
+        -webkit-border-radius: 12px
+        border-radius: 12px
+        padding: 5px 6px
+        margin-right: 8px
+        border-radius: 9px
+  .collection
+    &__first
+      max-height: 300px
+      &-image
+        object-fit: cover
+    &__second
+      flex-basis: 100%
+      &-1, &-2
+        width: 137px
+        height: 97px
+    &__title
+      padding-top: 26px
+      margin-bottom: 20px
+
+    &__third
+      &-text
+        font-size: 16px
+        line-height: 28px
+        padding-left: 7px
+        padding-right: 7px
+  .trends
+    &__title
+      font-size: 28px
+      line-height: 36px
+      text-align: center
+      letter-spacing: 0.2px
+      margin-bottom: 27px
+      margin-top: 22px
+
+    &__list
+      margin-bottom: 9px
+    &-container
+      &__wrapper
+        right: 0
+      &--active
+        margin-right: 0
+        margin-left: 0
+        max-width: 290px
+      &__price
+        line-height: 27px
+
+      &__card
+        width: 140px
+        height: 100vh
+        margin-bottom: 20px
+        // height: 100vw
+        align-items: flex-start
+        justify-content: start
+        flex-direction: row
+  .reviews
+    &__margin
+      padding-top: 34px
+  .swiper
+    &-container
+      min-height: 562px
+    &-slide
+      &__image
+        width: 70px
+        height: 63px
+        margin-bottom: 21px
+      &__text
+        padding-right: 10px
+        padding-left: 10px
+        margin-bottom: 24px
+        max-height: 360px
+        overflow-Y: auto
+      &__username
+        width: 145px
+  .history
+    &__margin
+      margin-top: -10px
+    &-wrapper
+
+      padding-top: 92px
+
+      border: none
+    &-description
+      margin-bottom: 18px
+      &__span
+        padding: 4px 14px
+      &__title
+        margin-top: 46px
+    &-slider
+      margin-left: -10px
+
+    &__navigation
+      margin-top: 29px
+      margin-left: 0
+      &-next, &-prev
+        width: 49px
+        height: 48px
+        padding: 13px 16px
+      &-next
+        margin-left: 15px
+    &-cards
+      &__image
+        height: 277px
+      &__writting
+        padding: 19px 13px 12px 19px
+        bottom: 13px
+        max-width: 270px
+        max-height: 150px
+      &__text
+        margin-bottom: 18px
+      &__card
+        min-height: 419px
+        margin-bottom: 12px
+  .footer
+
+    &-contacts, &-company, &-service, &-navigation
+      margin-bottom: 13px
+    &__title
+      font-size: 16px
+      line-height: 22px
+      margin-bottom: 21px
+    &-wrapper
+      padding-top: 48px
+    &__link
+      font-size: 14px
+      line-height: 20px
+    &__item
+      margin-bottom: 15px
+    &-links
+      padding-left: 21px
+    &-description
+      padding-bottom: 73px
+      &__margin
+        margin-top: 35px
+    &__text
+      font-size: 14px
+      line-height: 24px
+      margin-bottom: 21px
+      margin-top: 11px
+    &-social
+      width: 100%
+      display: flex
+      justify-content: center
+    &__img
+      margin-left: 8px
+      margin-right: -2px
+    &__logo
+      margin-left: 10px
+  .svg_plus
+    width: 26px
+  .modal
+    &__dialog
+      width: 284px
+      padding: 32px 36px
+  .subscribe
+    &__button
+      max-width: 100%
+      width: 100%
+  hr
+    background-color: #E5EAF4

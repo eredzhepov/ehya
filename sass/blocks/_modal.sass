@@ -1,0 +1,200 @@
+.modal
+  overflow-y: auto
+  &__overlay
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    z-index: 9998
+    background: rgba(177, 206, 223, 0.39)
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__dialog
+    max-height: 100%
+    overflow-y: auto
+    position: fixed
+    top: 50%
+    left: 50%
+    padding: 33px 67px
+    background-color: #fff
+    border-radius: 8px
+    color: #b6b7b9
+    z-index: 9999
+    max-width: 378px
+    transform: translate(-50%, -50%)
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__close
+    position: absolute
+    top: 9px
+    right: 10px
+    text-decoration: none
+    cursor: pointer
+    z-index: 202
+    width: 17px
+    height: 17px
+  &__input
+    width: 100%
+    margin-top: 15px
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    background: #ebebeb
+    border-radius: 4px
+    border: none
+    padding: 0 23px
+    height: 50px
+
+    &::placeholder
+      color: #183B56
+    &:nth-child(2)
+      margin-top: 15px
+  &__button
+    min-width: 160px
+    min-haight: 50px
+    padding: 18px
+
+    color: #fff
+    border-radius: 4px
+    border: none
+    font-weight: bold
+    font-size: 11px
+    line-height: 15px
+    margin-top: 15px
+    border: 2px solid $primary
+    filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1))
+    background-color: #fff
+    color: $primary
+    width: 100%
+    order: 3
+  &__form
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__title
+    color: #183B56
+    font-family: "HK Grotesk_bold", sans-serif
+    -webkit-font-feature-settings: "locl" 0
+  &__info
+    font-family: "HK Grotesk_medium", sans-serif
+    font-feature-settings: "locl" 0
+    font-weight: 500
+    font-size: 16px
+    line-height: 20px
+    letter-spacing: 0.2px
+    order: 2
+    color: #183B56
+.inut-wrapper
+  position: relative
+  order: 1
+  width: 100%
+.modal1
+  overflow-y: auto
+  &__overlay
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    z-index: 9998
+    background: rgba(177, 206, 223, 0.39)
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__dialog
+    max-height: 100%
+    overflow-y: auto
+    position: fixed
+    top: 50%
+    left: 50%
+    padding: 33px 67px
+    background-color: red
+    border-radius: 8px
+    color: #b6b7b9
+    z-index: 9999
+    max-width: 378px
+    transform: translate(-50%, -50%)
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__close
+    position: absolute
+    top: 9px
+    right: 10px
+    text-decoration: none
+    cursor: pointer
+    z-index: 202
+    width: 17px
+    height: 17px
+  &__input
+    width: 100%
+    margin-top: 15px
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    background: #ebebeb
+    border-radius: 4px
+    border: none
+    padding: 0 23px
+    height: 50px
+
+    &::placeholder
+      color: #183B56
+    &:nth-child(2)
+      margin-top: 15px
+  &__button
+    min-width: 160px
+    min-haight: 50px
+    padding: 18px
+
+    color: #fff
+    border-radius: 4px
+    border: none
+    font-weight: bold
+    font-size: 11px
+    line-height: 15px
+    margin-top: 15px
+    border: 2px solid $primary
+    filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1))
+    background-color: #fff
+    color: $primary
+    width: 100%
+    order: 3
+  &__form
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__title
+    color: #183B56
+    font-family: "HK Grotesk_bold", sans-serif
+    -webkit-font-feature-settings: "locl" 0
+  &__info
+    font-family: "HK Grotesk_medium", sans-serif
+    font-feature-settings: "locl" 0
+    font-weight: 500
+    font-size: 16px
+    line-height: 20px
+    letter-spacing: 0.2px
+    order: 2
+    color: #183B56
+.inut-wrapper
+  position: relative
+  order: 1
+  width: 100%

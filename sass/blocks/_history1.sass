@@ -1,0 +1,124 @@
+.history
+  &-wrapper
+    border-top: 1px solid #E5EAF4
+    display: flex
+    justify-content: space-between
+    padding-top: 121px
+    align-items: flex-start
+  &__margin
+
+    margin-top: 67px
+  &-description
+    max-width: 392px
+    position: relative
+    &__span
+      position: absolute
+      top: 0
+      left: 0
+      color: #36B37E
+      background-color: lighten(#36B37E,45%)
+      font-family: Open Sans
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 20px
+      text-align: center
+      text-transform: uppercase
+      border-radius: 20px
+      padding: 6px 14px
+    &__title
+      font-family: "HK Grotesk_bold", sans-serif
+      font-feature-settings: "locl" 0
+      font-style: normal
+      font-weight: bold
+      font-size: 48px
+      line-height: 60px
+      letter-spacing: 0.2px
+      color: #183B56
+      margin-top: 56px
+      margin-bottom: 28px
+    &__text
+      font-family: Open Sans
+      font-style: normal
+      font-weight: normal
+      font-size: 20px
+      line-height: 36px
+      color: #5A7184
+      margin-bottom: 0
+      max-height: 108px
+      overflow-y: auto
+      margin-left: -3px
+  &__navigation
+    display: flex
+    flex-direction: row
+    margin-top: 48px
+    height: 60px
+    margin-left: -5px
+    &-next, &-prev
+      width: 56px
+      height: 56px
+      padding: 20px 18px
+      border: 2px solid #183B56
+      border-radius: 50%
+      fill: #183B56
+      outline: none
+      cursor: pointer
+    &-next
+      margin-left: 18px
+  &-slider
+    max-width: 662px
+    broder: 1px solid red
+    margin: 0
+    // background-color: red
+    &__item
+      position: relative
+      height: 100%
+
+  &-cards
+    min-width: 656px
+    min-height: 475px
+    display: flex
+    justify-content: space-between
+    padding-top: 10px
+    &__card
+      position: relative
+      max-width: 322px
+      min-height: 475px
+    &__writting
+      display: flex
+      flex-direction: column
+      position: absolute
+      bottom: 0
+      right: -10px
+      max-width: 312px
+      height: 178px
+      background-color: #FAFDFF
+      padding: 18px 34px 20px 20px
+
+    &__text
+      font-family: "HK Grotesk_regular", sans-serif
+      font-feature-settings: "locl" 0
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 32px
+      letter-spacing: 0.2px
+      color: #183B56
+      margin-bottom: 23px
+    &__link
+      font-family: Open Sans
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+      color: #1565D8
+      text-decoration: none
+    &__image
+      border-radius: 8px 8px 0px 0px
+.disabled
+  fill: #959EAD
+  padding: 20px 18px
+  border: 2px solid #959EAD
+  border-radius: 50%
+  outline: none
+  cursor: not-allowed
